@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Wallpoet|Yeon+Sung&display=swap');
+
+.middle{
+ // position: absolute;
+  //top: 50%;
+//  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.text{
+  color: #fff;
+  font-size: 30px;
+  font-family: "montserrat";
+  font-weight: 900;
+  cursor: pointer;
+}
+.hecho{
+  color: #fff;
+  font-size: 12px;
+  font-family: "montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+.hidden{
+  max-width: 0;
+  opacity: 0;
+  transition: 0.5s ease-in;
+}
+.text:hover .hidden{
+  opacity: 1;
+  max-width: 1em;
+}
+
+/*--------------- efectos section-------*/
+.efectos{
+	text-align: center;
+	font-family: 'Yeon Sung', cursive;
+}
+.efectos p{
+	margin:3px;
+}
+.efectos2{
+	position: relative;
+	text-align: center;
+	font-family: 'Wallpoet', cursive;
+}
+.efectos2 p{
+	position: absolute;
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');  
+
+.pri{
+    color:white;
+    text-align:center;
+    font-family: 'Inconsolata', monospace;
+    text-shadow: 0px 0px 10px #FFF,
+    /* Parte de luz */
+    4px 2px 12px #DCB500,
+    -4px 2px 12px #DCB500,
+    /* Subida del fuego */
+    0px -6px 14px #FF7A00,
+    0px -12px 14px #FF6300,
+    0px -20px 14px #FF4400,
+    /* Azuleo de la llama */
+    0px -30px 14px #0A7BFF;
+    
+    }
+
+.p1, .p2{
+ opacity:0;
+ font-family: 'Yeon Sung', cursive;
+ }
+ .p2{
+ text-shadow: 0px 0px 10px #FFF,
+ /* Parte de luz */
+ 4px 2px 12px #DCB500,
+ -4px 2px 12px #DCB500,
+ /* Subida del fuego */
+ 0px -6px 14px #FF7A00,
+ 0px -12px 14px #FF6300,
+ 0px -20px 14px #FF4400,
+ /* Azuleo de la llama */
+ 0px -30px 14px #0A7BFF
+ }
+ .p3{
+ font-family: 'Wallpoet', cursive;
+ text-shadow: 0px 0px 10px #FFF,
+ /* Parte de luz */
+ 4px 2px 12px #DCB500,
+ -4px 2px 12px #DCB500,
+ /* Subida del fuego */
+ 0px -6px 14px #FF7A00,
+ 0px -12px 14px #FF6300,
+ 0px -20px 14px #FF4400,
+ /* Azuleo de la llama */
+ 0px -30px 14px #0A7BFF
+ }
+ .texten{
+ color:white;margin-left:130px;
+ }
+
+.header2 { 
+background: linear-gradient(to left top, #fee140, black); 
+ 
+         color:white;
+         text-align:center;
+         font-size:15px;
+         }
+         .flexx{
+         display:flex;flex-direction:row;
+         justify-content: space-around;
+ align-items: center;
+         }
+.flexx h2{
+ text-shadow: 0px 0px 10px #FFF,
+ /* Subida del fuego */
+ 0px -6px 14px #FF7A00
+}
+.lis .fab{
+ font-size: 20px;
+}
+.mystyleh3{
+ font-family: 'Tomorrow', sans-serif;
+}
+.textt > p, #brasil, #rusia, #agne{
+ font-size: 10px;
+ 
+ }

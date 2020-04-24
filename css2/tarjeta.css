@@ -1,0 +1,98 @@
+.card2, .card3, .card4, .over, .card5{
+    display: flex;
+    flex-direction: row;  
+    height: 100%;
+    width:100%;   
+}
+.card2 .contenedor{
+    padding: 15px;
+}
+.cardone,.cardtwo,.cardthree,.cardfour,
+.cardfive,.cardsix,.carddocker, .cardtensor{
+      height: 100%;
+    width:100%;
+    margin: 8px;
+   padding: 20px;
+}
+ 
+.btnver{
+      background: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    text-align: center;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 12px;
+    
+    margin: auto;
+    width:35px;
+}
+  
+.contenedor{
+    height: 200px;
+    width: 100%;
+    margin: 10px 2px;
+    -webkit-perspective: 700;  
+}
+
+.carta{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d; /*pa q los elemntos se conviertan en 3d y trabaja con otra propperspective*/
+    transition: 2s;
+     box-shadow: 0px 0px 15px black;
+    
+}
+.carta:hover{
+    transform: rotateY(180deg);
+}
+
+ 
+.lado {
+     height: 100%;
+    width: 100%;
+ backface-visibility: hidden;  /*q el lado de atras del elemento esten ocultos*/
+   position: absolute; 
+    border-radius: 15px; 
+}
+
+.frente {
+    background: aqua;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');  
+.atras{
+  background-image: linear-gradient(to right, black 0%, #fee140 100%); 
+    transform: rotateY(180deg);
+    font-family: 'Tomorrow', sans-serif;
+   
+    text-align: center;
+}
+
+.lado img, .imgatras{
+    width: 100%;
+    height: 100%;
+}
+
+.atras > p{
+  
+    color: aqua;
+    font-size: 11px;
+}
+
+@media screen and (min-width: 1100px){ 
+ .atras > p{ 
+     color: aqua;
+    font-size: 12px;
+}
+}
+ 
+@media screen and (min-width: 800px){ 
+
+}
+
+@media screen and (max-width: 600px){ 
+    
+    
+}

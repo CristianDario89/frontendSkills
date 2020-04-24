@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Wallpoet|Yeon+Sung&display=swap');
+
+
+*{
+text-decoration: none;
+  list-style: none;
+}
+
+body, html {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+  
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, 5);
+    grid-template-areas:"header"
+        "sect1"
+        "sect2"
+        "sect3"
+        "main"
+        "footer";
+}
+/*
+aside {
+    grid-area: sidebar;
+    background-color: #007FFF;
+}*/
+
+header {
+    grid-area: header;
+   
+}
+
+section:nth-of-type(1) {
+    grid-area: sect1;
+    background-color: #B3D8FD;
+}
+section:nth-of-type(2) {
+    grid-area: sect2;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    text-align: center;
+    padding: 3px;
+}
+section:nth-of-type(3) {
+    grid-area: sect3;
+    background-color: black;
+    color:white;
+        display: flex;
+    justify-content: space-around;
+   align-items: center;
+    flex-direction: column;
+    position:relative;
+    
+    text-align: center;
+    padding: 3px;
+}
+main {
+    grid-area: main;
+    background-color: black;
+    
+    display: flex;
+ flex-direction: column;
+//  justify-content: center;
+}
+
+footer {
+    grid-area: footer;
+    background: linear-gradient(to top left, #fee140, black); 
+ 
+}
+
+@media only screen and (min-width: 768px) {
+
+    body {
+        margin: 0;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows:9% 30% auto 10%;
+        grid-template-areas:
+            "header header header"
+            "sect1  sect2  sect3"
+            "main   main   main"
+            "footer footer footer";
+    }
+
+}
